@@ -27,8 +27,7 @@ public class Response {
 				if (pNode.isMissingNode())
 					throw new IllegalArgumentException("json包解析错误!");//
 				else
-					System.out.println(pNode);
-				doProcesses(pNode);
+					doProcesses(pNode);
 
 			}
 			if ((MODULES & cmd) != 0) {
@@ -56,8 +55,7 @@ public class Response {
 
 	// 处理Processes节点
 	public void doProcesses(JsonNode pNode) {
-		//int process_count=
-
+		System.out.println(pNode);
 	}
 
 	// 处理Modules节点
