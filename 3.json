@@ -1,0 +1,96 @@
+{
+    "cmd": 3,
+    "data": {
+        "Processes": [
+            {
+                "pid": 1024,
+                "ppid": 0,
+                "name": "test.exe",
+                "path": "E:\\Project_Java\\Client",
+                "privileges": [
+                    1,
+                    2,
+                    3
+                ],
+                "thread": [
+                    {
+                        "thread_id": 1,
+                        "address": 1
+                    },
+                    {
+                        "thread_id": 2,
+                        "address": 2
+                    }
+                ],
+                "sid": [
+                    {
+                        "type": 0,
+                        "sid": "S-1-5-18",
+                        "attribute": 0
+                    },
+                    {
+                        "type": 1,
+                        "sid": "S-1-5-32-544",
+                        "attribute": 1
+                    }
+                ]
+            },
+            {
+                "pid": 2048,
+                "ppid": 1024,
+                "name": "cmd.exe",
+                "path": "\\SystemRoot\\System32\\smss.exe",
+                "privileges": [
+                    4,
+                    5,
+                    6
+                ],
+                "thread": [
+                    {
+                        "thread_id": 3,
+                        "address": 3
+                    },
+                    {
+                        "thread_id": 4,
+                        "address": 4
+                    }
+                ],
+                "sid": [
+                    {
+                        "type": 0,
+                        "sid": "S-1-1-0",
+                        "attribute": 2
+                    },
+                    {
+                        "type": 1,
+                        "sid": "S-1-5-11",
+                        "attribute": 3
+                    },
+                    {
+                        "type": 1,
+                        "sid": "S-1-16-16384",
+                        "attribute": 4
+                    }
+                ]
+            }
+        ],
+        "Modules": [
+            {
+                "name": "ntoskrnl.exe",
+                "path": "\\SystemRoot\\system32\\ntoskrnl.exe",
+                "size": 134234112,
+                "load_count": 123,
+                "attribute": 1,
+                "address": 18446735277679456000
+            },
+            {
+                "name": "mcupdate_AuthenticAMD.dll",
+                "path": "\\SystemRoot\\system32\\PSHED.dll",
+                "size": 152059904,
+                "load_count": 1,
+                "attribute": 2,
+                "address": 18446744073709552000
+            }
+        ]
+    }
+}

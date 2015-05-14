@@ -1,0 +1,41 @@
+{
+    "cmd": 4,
+    "data": {
+        "ProcessDetails": {
+            "VAD": [
+                {
+                    "start_address": 0,
+                    "end_address": 0,
+                    "attribute": 1
+                },
+                {
+                    "start_address": 0,
+                    "end_address": 255,
+                    "attribute": 2
+                }
+            ],
+            "DLL": [
+                {
+                    "address": 22445,
+                    "size": 16388,
+                    "name": "ntdll.dll",
+                    "path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+                },
+                {
+                    "address": 9999999,
+                    "size": 540676,
+                    "name": "kernel32.dll",
+                    "path": "C:\\Windows\\system32\\kernel32.dll"
+                }
+            ],
+            "Object": [
+                {
+                    "name": "Object   1"
+                },
+                {
+                    "name": "Object2"
+                }
+            ]
+        }
+    }
+}
